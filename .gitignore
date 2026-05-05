@@ -1,0 +1,18 @@
+# Secrets / credentials – never commit
+secrets/
+*.credentials.json
+ssrs-config.ps1
+*.snk
+
+# Local outputs
+out/
+*.bak
+*.pdf
+*.csv
+*.log
+
+# OS / editor
+Thumbs.db
+.DS_Store
+.vs/
+.vscode/
